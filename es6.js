@@ -20,6 +20,11 @@ class Display {
                             <td>${book.author}</td>
                             <td>${book.type}</td>
                         </tr>`
+        `<tr>
+                            <td>${book.name}</td>
+                            <td>${book.author}</td>
+                            <td>${book.type}</td>
+                        </tr>`
 
         tableBody.innerHTML += uiString;
     }
